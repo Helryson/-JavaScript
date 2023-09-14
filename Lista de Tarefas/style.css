@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-image: url(dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+}
+#blocoTarefas{
+    width: 70%;
+    margin: auto;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+label{
+    display: flex;
+    margin: 10px 0px;
+    padding: 22px 2px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+input{
+    margin: 0 20px;
+}
+.meuTexto {
+    background-color: transparent;
+    border: 0;
+  }
+button {
+    margin-top: 15px;
+    background-color: #007BFF;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5cabff;
+    color: #ffffff;
+}

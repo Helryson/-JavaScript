@@ -10,6 +10,11 @@ body{
 p{
     font-size: 25px;
     color: white;
+    margin-bottom: 0;
+}
+img{
+    width: 40px;
+    margin-bottom: 20px;
 }
 .teste{
     display: flex;
@@ -29,7 +34,7 @@ input[type="radio"]{
     width: 30px;
     height: 30px;
     cursor: pointer;
-    border: 2px solid #000000;
+    border: 2px solid #797979;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +45,7 @@ input[type="radio"]:before{
     height: 30px;
     width: 30px;
     outline: none;
-    background-color: #000000;
+    background-color: #797979;
     content: "";
     border-radius: 50%;
     opacity: 0;
@@ -51,6 +56,7 @@ input[type="radio"]:checked:before{
 
 }
 .diva{
+    position: relative;
     display: flex;
     align-items: center;
     width: 80%;
@@ -58,9 +64,10 @@ input[type="radio"]:checked:before{
 }
 label{
     margin-left: 15px;
+    cursor: pointer;
 }
 
-button{
+#addTarefa{
     margin-top: 15px;
     background-color: #007BFF;
     border: none;
@@ -73,6 +80,17 @@ button:hover{
     background-color: #5cabff;
     color: #ffffff;
 }
-#rmvTarefa{
-    margin-left: 5px;
+.rmvTarefa{
+    position: absolute;
+    right: -23%;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px red ridge;
+}
+.rmvTarefa:hover{
+    background-color: red;
 }

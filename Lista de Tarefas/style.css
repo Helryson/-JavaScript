@@ -45,7 +45,8 @@ input[type="radio"]:before{
     height: 30px;
     width: 30px;
     outline: none;
-    background-color: #797979;
+    background-image: url(accept.png);
+    background-size: 100%;
     content: "";
     border-radius: 50%;
     opacity: 0;
@@ -93,4 +94,5 @@ button:hover{
 }
 .rmvTarefa:hover{
     background-color: red;
+    cursor: pointer;
 }

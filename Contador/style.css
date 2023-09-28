@@ -100,9 +100,6 @@ input:focus{
     border: rgb(0, 153, 255) solid 0.2px;
     outline: none;
 }
-.seletorGrau:hover option:hover{
-    cursor: pointer;
-}
 .seletorGrau:hover{
     background-color: rgb(37, 37, 37);
     cursor: pointer;

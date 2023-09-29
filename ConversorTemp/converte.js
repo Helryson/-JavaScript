@@ -25,7 +25,7 @@ function converterFahrenheitParaFahrenheit(valorFahrenheit){
 }
 
 function converterFahrenheitParaKelvin(valorFahrenheit) {
-    return (valorFahrenheit - 32) / 1.8 - 273.15;
+    return (valorFahrenheit - 32) / 1.8 + 273.15;
 }
 
 function converterKelvinParaCelsius(valorKelvin) {
